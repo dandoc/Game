@@ -62,22 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\boss\script\at_3.cs" />
-    <Compile Include="Assets\boss\script\at_3_clone.cs" />
-    <Compile Include="Assets\boss\script\at2\boss_at2.cs" />
-    <Compile Include="Assets\boss\script\at2\boss_at3.cs" />
-    <Compile Include="Assets\boss\script\at2\boss_bullet_sky.cs" />
-    <Compile Include="Assets\boss\script\at3.cs" />
-    <Compile Include="Assets\boss\script\boss_attack.cs" />
-    <Compile Include="Assets\boss\script\boss_body\boss_bady.cs" />
-    <Compile Include="Assets\boss\script\boss_bullet_at1.cs" />
-    <Compile Include="Assets\boss\script\boss_bullet_effect.cs" />
-    <Compile Include="Assets\boss\script\boss_firepos.cs" />
-    <Compile Include="Assets\boss\script\boss_huijun\at2.cs" />
-    <Compile Include="Assets\boss\script\boss_huijun\at2_clone.cs" />
-    <Compile Include="Assets\boss\script\boss_huijun\movement.cs" />
-    <Compile Include="Assets\boss\script\boss_moving\boss_moving.cs" />
-    <Compile Include="Assets\boss_body.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_attack.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_body.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_bullet_at1.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_bullet_effect.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_bullet_sky.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_firepos.cs" />
+    <Compile Include="Assets\boss\script\New_boss\boss_moving.cs" />
+    <Compile Include="Assets\boss\script\New_boss\movement.cs" />
+    <Compile Include="Assets\boss\script\New_boss\new_at2.cs" />
+    <Compile Include="Assets\boss\script\New_boss\new_at2_clone.cs" />
+    <Compile Include="Assets\boss\script\New_boss\new_boss_at2.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />

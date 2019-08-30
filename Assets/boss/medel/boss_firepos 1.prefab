@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 759149717}
   - component: {fileID: 759149716}
   - component: {fileID: -8201258665940000441}
+  - component: {fileID: 2675330410547056339}
   m_Layer: 0
   m_Name: boss_firepos 1
   m_TagString: Untagged
@@ -87,7 +88,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4182954933880920348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa165a7103f21413db35e2dccb40f6e2, type: 3}
   m_Name: 
@@ -98,3 +99,16 @@ MonoBehaviour:
   del_time: 0.16
   count_time: 0
   flag: 0
+--- !u!114 &2675330410547056339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182954933880920348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4155ff4485a454786b316f0d1ddf6618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 6312489724652109854, guid: d96e2547c6f1c4b70adabce2ed0e64e7, type: 3}

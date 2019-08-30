@@ -19,7 +19,7 @@ public class player_1 : MonoBehaviour
     [SerializeField] Transform pos;
     [SerializeField] float checkRadius;
     [SerializeField] LayerMask isLayer;
-
+    
     public int jumpCount;
     int jumpCnt;
 

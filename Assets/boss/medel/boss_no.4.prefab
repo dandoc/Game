@@ -169,11 +169,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8569322011184112290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84d92bd4806a04f78827f7531ffed26d, type: 3}
+  m_Script: {fileID: 11500000, guid: bf45a6158ebae4b5daa0a6588294d997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  at2_TF: 0
-  a: 0
+  bullet: {fileID: 6312489724652109854, guid: d96e2547c6f1c4b70adabce2ed0e64e7, type: 3}
 --- !u!1 &8569322011449342262
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +188,7 @@ GameObject:
   - component: {fileID: 8569322012163955421}
   - component: {fileID: 1389306905}
   - component: {fileID: 150279662}
+  - component: {fileID: 8650789020495610938}
   m_Layer: 0
   m_Name: boss_no.4
   m_TagString: Enemy
@@ -326,14 +326,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8569322011449342262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 404dd5bf434fc4b7f84c6ef408c109c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movepower: 1
   anim: {fileID: 0}
   info: 00000000000000000000
+--- !u!114 &8650789020495610938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8569322011449342262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c570bbc55c9aa46768917fe14af22ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  info: 00000000000000000000
+  at_flag: 0
+  at_Time: 0
 --- !u!1 &8569322011486854950
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +601,6 @@ GameObject:
   - component: {fileID: 8569322012554403994}
   - component: {fileID: 5896723715459324846}
   - component: {fileID: 2930312383608251041}
-  - component: {fileID: 4427876767414626181}
   m_Layer: 0
   m_Name: "\uC67C"
   m_TagString: Untagged
@@ -689,20 +703,6 @@ MonoBehaviour:
   a: 0
   bullet: {fileID: 4166733833528110767, guid: 95e3d745e0a874ca8bf2151ade43b78a, type: 3}
   firePos: {fileID: 4377080487501185237}
---- !u!114 &4427876767414626181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8569322012554403992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b76adda7e254b999029265d7b90a24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  at3_TF: 0
-  a: 0
 --- !u!1 &8569322012799032662
 GameObject:
   m_ObjectHideFlags: 0

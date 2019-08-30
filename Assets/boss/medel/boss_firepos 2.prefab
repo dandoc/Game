@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9108481139391623159}
   - component: {fileID: 2888285775465944951}
   - component: {fileID: 2888285775465944950}
-  - component: {fileID: 4824458941318139962}
+  - component: {fileID: 3990996923274034575}
   m_Layer: 0
   m_Name: boss_firepos 2
   m_TagString: Untagged
@@ -80,7 +80,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4824458941318139962
+--- !u!114 &3990996923274034575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,12 +89,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1304240442220034814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a87944d7c21047239a90f0f0b04da77, type: 3}
+  m_Script: {fileID: 11500000, guid: bf45a6158ebae4b5daa0a6588294d997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
   bullet: {fileID: 6312489724652109854, guid: d96e2547c6f1c4b70adabce2ed0e64e7, type: 3}
-  firePos: {fileID: 9108481139391623159}
-  del_time: 0.17
-  count_time: 0
-  flag: 0
