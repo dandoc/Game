@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\boss\script\New_boss\at4\at4.cs" />
     <Compile Include="Assets\boss\script\New_boss\boss_attack.cs" />
     <Compile Include="Assets\boss\script\New_boss\boss_body.cs" />
     <Compile Include="Assets\boss\script\New_boss\boss_bullet_at1.cs" />

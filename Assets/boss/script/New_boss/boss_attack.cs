@@ -23,11 +23,11 @@ public class boss_attack : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Ground"))
         {
-            if (GameObject.Find("boss_no.4").GetComponent<movement>().info[0])
+            if (GameObject.Find("boss_no.4").GetComponent<movement>().info[1])
             {
                 Instantiate(bullet, firePos.transform.position, Quaternion.identity);
             }
-            else if (GameObject.Find("boss_no.4").GetComponent<movement>().info[2])
+            else if (GameObject.Find("boss_no.4").GetComponent<movement>().info[3])
             {
                 Instantiate(bullet, firePos.transform.position, Quaternion.identity);
                 plus();
