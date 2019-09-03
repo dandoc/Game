@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/boss/script/New_boss/new_boss_at2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/boss/script/New_boss/movement.cs">
     <Files>
-      <File FileName="Assets/boss/script/New_boss/movement.cs" Line="19" Column="52" />
-      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" />
-      <File FileName="Assets/boss/script/New_boss/new_at2.cs" />
-      <File FileName="Assets/boss/script/New_boss/boss_body.cs" />
-      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" />
-      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" Line="18" Column="128" />
+      <File FileName="Assets/boss/script/New_boss/movement.cs" Line="44" Column="44" />
+      <File FileName="Assets/boss/script/New_boss/at4/at4.cs" Line="19" Column="1" />
+      <File FileName="Assets/boss/script/New_boss/new_at2.cs" Line="31" Column="1" />
+      <File FileName="Assets/boss/script/New_boss/boss_body.cs" Line="30" Column="6" />
+      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" Line="17" Column="10" />
+      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" Line="18" Column="138" />
+      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" Line="41" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,8 @@
               <Node name="boss" expanded="True">
                 <Node name="script" expanded="True">
                   <Node name="New_boss" expanded="True">
-                    <Node name="new_boss_at2.cs" selected="True" />
+                    <Node name="at4" expanded="True" />
+                    <Node name="movement.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
