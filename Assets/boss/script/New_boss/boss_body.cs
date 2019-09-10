@@ -12,11 +12,16 @@ public class boss_body : MonoBehaviour
     }
     public float HP = 100;
     private Animator anim;
+    bool flag = true;
     void Update()
     {
         if (HP <= 0)
         {
-            anim.SetTrigger("die");
+            if (flag)
+            {
+                anim.SetTrigger("z");
+                flag = false;
+            }
         }
     }
 
