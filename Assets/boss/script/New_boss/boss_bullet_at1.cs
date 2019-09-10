@@ -7,6 +7,8 @@ public class boss_bullet_at1 : MonoBehaviour
     public GameObject explosionPrefab;
     public GameObject damage_effect;
     public Transform firePos;
+    public GameObject traceTarget;
+    bool bullet_target;
     public float time = 0f;
     public int damage = 10;
     public float speed = 10;
@@ -14,13 +16,39 @@ public class boss_bullet_at1 : MonoBehaviour
     public float del_time = 1f; // 딜레이 시간 설정 값
     private float count_time = 0f;
 
+    private void Start()
+    {
+        Vector3 playerPos = traceTarget.transform.position;
+        if (playerPos.x < transform.position.x)
+        {
+            bullet_target = false;
+        }
+        else if (playerPos.x > transform.position.x)
+        {
+            bullet_target = true;
+        }
+    }
+
     private void Update()
     {
         float moveX = speed * Time.deltaTime;
-        transform.Translate(-moveX, 0, 0);
+
+        if (bullet_target)
+        {
+            transform.Translate(-moveX, 0, 0);
+
+        }
+        else if (bullet_target == false)
+        {
+            transform.Translate(moveX, 0, 0);
+
+        }
+
         Destroy(this.gameObject, 3f);
+
         Fire();
         count_time += Time.deltaTime;
+
         if (count_time >= del_time)
         {
             count_time = 0f;

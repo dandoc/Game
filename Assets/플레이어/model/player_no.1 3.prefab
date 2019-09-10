@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7b5a33d076e4660a5b38342e45ccbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4697524325666863896, guid: c6c8db53120f54543b26f1290bfe9663, type: 3}
+  bullet: {fileID: 3844144260434178458, guid: 0017dcd9baad242ab94df81c1bc62edc, type: 3}
   firePos: {fileID: 6460488446464493995}
   del_time: 0.08
 --- !u!50 &6460488446511590599
@@ -236,6 +236,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   jumpCount: 1
+  HP: 10
+  player_transform: {fileID: 6460488446511590603}
+  Player_die_effect: {fileID: 4463094541736057696, guid: bab8904d33eb74ae7be03f8beb3ca583,
+    type: 3}
 --- !u!60 &6460488446511590597
 PolygonCollider2D:
   m_ObjectHideFlags: 0

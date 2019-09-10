@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - aaa
   - bbb
+  - at4
   layers:
   - Default
   - TransparentFX

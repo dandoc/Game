@@ -33,12 +33,13 @@ public class boss_bullet_sky : MonoBehaviour
         if (other.gameObject.tag.Equals("Ground"))
         //부딪힌 객체의 태그를 비교해서 적인지 판단합니다.
         {
-            Destroy(this.gameObject, 0.001f);
             Instantiate(explosionPrefab, firePos.transform.position, Quaternion.identity);
+            Destroy(this.gameObject, 0.001f);
+
 
         }
 
-		else if (other.gameObject.tag.Equals("Player"))
+        else if (other.gameObject.tag.Equals("Player"))
 		//부딪힌 객체의 태그를 비교해서 적인지 판단합니다.
 		{
 			Instantiate(damage_effect, firePos_1.transform.position, Quaternion.identity);

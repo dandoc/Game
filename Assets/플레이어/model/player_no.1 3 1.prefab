@@ -238,6 +238,9 @@ MonoBehaviour:
     m_Bits: 256
   jumpCount: 1
   HP: 10
+  player_transform: {fileID: 3342726636638032453}
+  Player_die_effect: {fileID: 4463094541736057696, guid: bab8904d33eb74ae7be03f8beb3ca583,
+    type: 3}
 --- !u!60 &3342726636638032459
 PolygonCollider2D:
   m_ObjectHideFlags: 0

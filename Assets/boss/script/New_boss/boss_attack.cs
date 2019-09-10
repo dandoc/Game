@@ -22,14 +22,16 @@ public class boss_attack : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag.Equals("Ground"))
+        //부딪힌 객체의 태그를 비교해서 적인지 판단합니다.
         {
-            if (GameObject.Find("boss_no.4").GetComponent<movement>().info[1])
+            if (GameObject.Find("boss_no.4").GetComponent<movement>().info[0])
             {
                 Instantiate(bullet, firePos.transform.position, Quaternion.identity);
             }
-            else if (GameObject.Find("boss_no.4").GetComponent<movement>().info[3])
+            else if (GameObject.Find("boss_no.4").GetComponent<movement>().info[2])
             {
                 Instantiate(bullet, firePos.transform.position, Quaternion.identity);
+
                 plus();
                 at2_TF = true;
             }

@@ -23,7 +23,10 @@ public class player_1 : MonoBehaviour
     public int jumpCount;
     int jumpCnt;
 
-    public float HP = 10;
+    //플레이어 die
+    public int HP = 10;
+    public Transform player_transform;
+    public GameObject Player_die_effect;
 
     void Start()
     {
@@ -41,6 +44,15 @@ public class player_1 : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.X))
         {
             anim.SetBool("attack", false);
+        }
+
+        //플레이어 die
+        if(HP <= 0)
+        {
+            Destroy(this.gameObject);
+
+            Instantiate(Player_die_effect, player_transform.position, player_transform.rotation);
+
         }
     }
 
@@ -111,6 +123,7 @@ public class player_1 : MonoBehaviour
         if (other.tag.Equals("Enemy"))
         {
             HP -= 1;
+            Debug.Log("HP : ");
             Debug.Log(HP);
         }
     }

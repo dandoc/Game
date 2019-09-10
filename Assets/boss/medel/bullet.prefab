@@ -166,6 +166,8 @@ MonoBehaviour:
   damage_effect: {fileID: 5181296936255290252, guid: b8a44274c010640d889e8b60a4cdf542,
     type: 3}
   firePos: {fileID: 4746211114685798510}
+  traceTarget: {fileID: 6460488446511590596, guid: e8e6c37b276510d40b50a7e76ecc88cb,
+    type: 3}
   time: 0
   damage: 10
   speed: 10
