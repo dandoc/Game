@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/boss/script/New_boss/movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/플레이어/scrip/FireCtrl.cs">
     <Files>
       <File FileName="Assets/boss/script/New_boss/movement.cs" Line="44" Column="44" />
-      <File FileName="Assets/boss/script/New_boss/at4/at4.cs" Line="19" Column="1" />
-      <File FileName="Assets/boss/script/New_boss/new_at2.cs" Line="31" Column="1" />
-      <File FileName="Assets/boss/script/New_boss/boss_body.cs" Line="30" Column="6" />
-      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" Line="17" Column="10" />
-      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" Line="18" Column="138" />
-      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" Line="41" Column="73" />
+      <File FileName="Assets/boss/script/New_boss/at4/at4.cs" />
+      <File FileName="Assets/boss/script/New_boss/new_at2.cs" />
+      <File FileName="Assets/boss/script/New_boss/boss_body.cs" />
+      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" />
+      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" />
+      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" />
+      <File FileName="Assets/플레이어/scrip/FireCtrl.cs" Line="36" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +19,6 @@
                 <Node name="script" expanded="True">
                   <Node name="New_boss" expanded="True">
                     <Node name="at4" expanded="True" />
-                    <Node name="movement.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -30,7 +30,9 @@
                 </Node>
               </Node>
               <Node name="플레이어" expanded="True">
-                <Node name="scrip" expanded="True" />
+                <Node name="scrip" expanded="True">
+                  <Node name="FireCtrl.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -40,7 +42,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="125794e7-4565-4e08-bb77-4e163f4d0698" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e91d80f1-744d-4059-8897-abb7fc4908d1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
