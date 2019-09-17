@@ -1,52 +1,13 @@
 ﻿<Properties StartupConfiguration="{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|">
-<<<<<<< Updated upstream
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/boss/script/New_boss/movement.cs">
-    <Files>
-      <File FileName="Assets/boss/script/New_boss/movement.cs" Line="44" Column="44" />
-      <File FileName="Assets/boss/script/New_boss/at4/at4.cs" Line="19" Column="1" />
-      <File FileName="Assets/boss/script/New_boss/new_at2.cs" Line="31" Column="1" />
-      <File FileName="Assets/boss/script/New_boss/boss_body.cs" Line="30" Column="6" />
-      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" Line="17" Column="10" />
-      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" Line="18" Column="138" />
-      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" Line="41" Column="73" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/플레이어/scrip/FireCtrl.cs">
-    <Files>
-      <File FileName="Assets/boss/script/New_boss/movement.cs" Line="19" Column="52" />
-      <File FileName="Assets/boss/script/New_boss/boss_attack.cs" />
-      <File FileName="Assets/boss/script/New_boss/new_at2.cs" />
-      <File FileName="Assets/boss/script/New_boss/boss_body.cs" Line="23" Column="30" />
-      <File FileName="Assets/boss/script/New_boss/new_at2_clone.cs" />
-      <File FileName="Assets/boss/script/New_boss/new_boss_at2.cs" Line="18" Column="128" />
-      <File FileName="Assets/플레이어/scrip/FireCtrl.cs" Line="1" Column="1" />
->>>>>>> Stashed changes
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Game" expanded="True">
-            <Node name="Assets" expanded="True">
-<<<<<<< Updated upstream
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="boss" expanded="True">
                 <Node name="script" expanded="True">
-                  <Node name="New_boss" expanded="True">
-                    <Node name="at4" expanded="True" />
-                    <Node name="movement.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Cinemachine" expanded="True">
-                <Node name="Base" expanded="True">
-                  <Node name="Editor" expanded="True">
-                    <Node name="Windows" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-=======
->>>>>>> Stashed changes
-              <Node name="플레이어" expanded="True">
-                <Node name="scrip" expanded="True">
-                  <Node name="FireCtrl.cs" selected="True" />
+                  <Node name="New_boss" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -57,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c9bd5c0a-0ef8-406a-8d45-775ee46b2be2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7b5b6beb-cf42-4219-9634-d07cf836ae52" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
